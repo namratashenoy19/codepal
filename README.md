@@ -28,7 +28,7 @@ CodePal is an AI-powered chatbot that helps developers understand and navigate l
 4. Run the application:
    ```bash
  $env:PYTHONPATH="C:\Users\namra\Downloads\chatbortai"
-streamlit run chatbortai/app.py
+ streamlit run chatbortai/app.py
    ```
 
 ## Usage
