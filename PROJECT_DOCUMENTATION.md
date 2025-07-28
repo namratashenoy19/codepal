@@ -128,49 +128,6 @@ class DirectoryListerTool(BaseTool):
 - Loading states and progress indicators
 - Input validation
 
-## Evaluation Criteria Implementation
-
-### 1. Core Agent & Tool Implementation (40 Marks)
-
-**✅ Quality and Robustness of Tools:**
-- All 4 required tools implemented
-- Comprehensive error handling
-- Input validation and sanitization
-- Graceful failure modes
-
-**✅ Effectiveness of Agent Reasoning:**
-- Intelligent tool selection based on question type
-- Multi-step reasoning for complex queries
-- Context preservation across interactions
-- Clear reasoning explanations
-
-**✅ RAG Pipeline Implementation:**
-- Efficient vector embeddings using sentence transformers
-- FAISS index for fast similarity search
-- Proper document chunking and metadata preservation
-- Persistent storage and caching
-
-### 2. Accuracy & Relevance of Answers (25 Marks)
-
-**✅ Semantic Understanding:**
-- Context-aware responses
-- Relevant file and code snippet retrieval
-- Accurate function and class identification
-- Proper code structure analysis
-
-**✅ Answer Quality:**
-- Comprehensive explanations
-- Source attribution and context
-- Clear, well-structured responses
-- Appropriate level of detail
-
-### 3. User Interface & Experience (20 Marks)
-
-**✅ Modern Web Interface:**
-- Clean, professional Streamlit UI
-- Responsive design with custom CSS
-- Intuitive navigation and layout
-- Visual feedback and loading states
 
 **✅ Multiple Input Methods:**
 - Local repository path
@@ -183,8 +140,6 @@ class DirectoryListerTool(BaseTool):
 - Conversation history management
 - Repository information display
 - Clear error messages and guidance
-
-### 4. Technical Implementation (15 Marks)
 
 **✅ Code Quality:**
 - Clean, well-documented code
